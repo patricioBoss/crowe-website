@@ -73,7 +73,7 @@ export default function MyApp(props) {
           },
           images: [
             {
-              url: "/img/666x1122.png",
+              url: "/img/666x1122.jpg",
               alt: "Og Image Alt",
             },
           ],

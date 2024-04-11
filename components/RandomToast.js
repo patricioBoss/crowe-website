@@ -12,20 +12,20 @@ function randomIntFromInterval(min, max) {
 const customToast = (name, state, amount) => (t) =>
   (
     <div
-      className={`bg-[#3182c1] text-white flex rounded-[10px] w-4/5 sm:w-[435px] pt-[10px] md:pt-[20px] pb-[17px] md:pb-[27px] pr-[42px] md:pr-[64px] ${
+      className={`bg-[#3182c1] text-white flex rounded-[10px] w-3/5 sm:w-[300px] pt-[5px] md:pt-[10px] pb-[9px] md:pb-[16px] pr-[10px] md:pr-[32px] ${
         t.visible ? " animate-slide-in-bottom" : " animate-fade-out-bottom"
       }`}
     >
-      <div className=" h-full grid place-content-center w-[70px] sm:w-[100px]">
-        <GiTakeMyMoney className=" w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] " />
+      <div className=" h-full grid place-content-center w-[50px] sm:w-[70px]">
+        <GiTakeMyMoney className=" w-[40px] h-[40px] " />
       </div>
       <div className="flex-1">
-        <h3 className=" text-xl sm:text-[28px] font-inter font-medium">
+        <h3 className=" text-sm sm:text-xl font-inter font-bold">
           Earnings update
         </h3>
-        <p className=" text-base">
-          {name} from {state} just earned{" "}
-          <span className=" font-semibold">{fCurrency(amount)}</span>{" "}
+        <p className=" text-sm leading-normal">
+          {name} from {state} just earned
+          <span className=" font-semibold">{fCurrency(amount)}</span>
         </p>
       </div>
     </div>
