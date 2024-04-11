@@ -192,9 +192,9 @@ const MyLocation = (
       <div className=" md:flex-1">
         <h4 className=" text-2xl font-bold mb-[14px] mt-5">LOCATION</h4>
         <p className=" text-base ">
-          725 15Th Street N.W.
+          2200 North Rodney Parham Road
           <br />
-          Washington, DC 20005
+          Suite 100, Washington, Little Rock, AR 72212
           <br />
           Direct: +1(424)279-3916
         </p>

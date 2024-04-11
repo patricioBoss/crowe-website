@@ -5,21 +5,6 @@ import Link from "next/link";
 const blogList = [
   {
     intro: {
-      title: "Forex Trade",
-      exp: "Provides an opportunity to break free from the limitations of traditional employment and achieve financial independence.",
-      outlines: [
-        "Capital Growth",
-        "Wealth Accumulation Plans",
-        "Portfolio Diversification",
-        "Passive Income Generation",
-        "Global Market Exposure",
-        "Lifestyle Flexibility",
-      ],
-      moreLink: "#",
-    },
-  },
-  {
-    intro: {
       title: "Cryptocurrency",
       exp: "Working with you to understand your life goals and develop a personalized wealth strategy. Today and for the years to come.",
       outlines: [
@@ -33,6 +18,22 @@ const blogList = [
       moreLink: "#",
     },
   },
+  {
+    intro: {
+      title: "Forex Trade",
+      exp: "Provides an opportunity to break free from the limitations of traditional employment and achieve financial independence.",
+      outlines: [
+        "Capital Growth",
+        "Wealth Accumulation Plans",
+        "Portfolio Diversification",
+        "Passive Income Generation",
+        "Global Market Exposure",
+        "Lifestyle Flexibility",
+      ],
+      moreLink: "#",
+    },
+  },
+
   {
     intro: {
       title: "Stock Market",

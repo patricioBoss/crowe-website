@@ -126,7 +126,7 @@ export const getStaticProps = async () => {
       method: "GET",
       url: "/wp-json/wp/v2/posts",
       params: {
-        include: "290481",
+        include: "290943,290481",
       },
     });
 

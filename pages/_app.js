@@ -105,7 +105,8 @@ export default function MyApp(props) {
         url=""
         telephone="+14242793916"
         address={{
-          streetAddress: "725 15th Street Northwest Washington DC 20005",
+          streetAddress:
+            "2200 North Rodney Parham Road Suite 100, Washington, Little Rock, AR 72212",
           addressLocality: "15th Street Northwest Washington",
           addressRegion: " DC",
           postalCode: "34688",
