@@ -180,6 +180,13 @@ export default function MyApp(props) {
       </Script> */}
 
       {/* <Script src="//eu.fw-cdn.com/12579744/608161.js" chat="true" /> */}
+
+      <Script
+        id="hs-script-loader"
+        async
+        defer
+        src="//js-na1.hs-scripts.com/45839955.js"
+      />
     </>
   );
 }
