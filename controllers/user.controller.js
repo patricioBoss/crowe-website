@@ -188,7 +188,7 @@ export const verify = async (req, res) => {
     const message =
       "Your account has been Verified, you can start exploring the full app features on your path to financial freedom.";
     let msg = sampleMailTemplate(firstName, loginLink, message);
-    sendMail(msg, "Account Verification Successful", email);
+    await sendMail(msg, "Account Verification Successful", email);
     return response(res, 200, "verification successful", null);
   } catch (err) {
     console.log(err);
