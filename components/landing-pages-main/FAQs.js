@@ -38,7 +38,6 @@ const faqs = [
     answer:
       "At Angela Danielle Crowe Wealth Management, we're dedicated to providing accessible and user-friendly investment solutions. With a team of experienced professionals, we aim to empower individuals to achieve their financial goals through innovative and transparent investment opportunities. Our platform offers a diverse range of assets and personalized services tailored to your needs, ensuring a seamless and rewarding investment experience.",
   },
-  // More questions...
 ];
 
 function classNames(...classes) {
