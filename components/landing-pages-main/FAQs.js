@@ -19,9 +19,9 @@ const faqs = [
       Want to signup? Sure, here's a simple step-by-step guide on how to sign up and get started:<br/>
 1. Open your preferred web browser and navigate to the website.<br/>
 2. Look for the "Sign Up" or "Register" button and click on it to start the registration process.<br/>
-3. Fill in your personal information, including your name, email address, and phone number.<br/>
+3. Fill in your personal information, including your name, email address, country and location.<br/>
 4. Choose a strong password and confirm it.<br/>
-5. Complete any additional verification steps required by the app, such as Id or phone number verification phone number verification.<br/>
+5. Complete any additional verification steps required by the app, such as Id or passport verification.<br/>
 6. Provide your financial information, such as your various withdrawal wallet details, fund your account and start investing.<br/>
 7. Once your account is set up, you can start exploring the app's features, such as browsing available investments and plans, making investment etc.<br/>
       `,
