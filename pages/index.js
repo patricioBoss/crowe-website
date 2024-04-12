@@ -16,6 +16,7 @@ import BlogList1 from "../components/landing-pages-main/BlogList1";
 import { getNeededInfo } from "../utils/settings";
 import MorganBlogs from "../components/landing-pages-main/MorganBlogs";
 import CTAsection from "../components/landing-pages-main/CTAsection";
+import FAQs from "../components/landing-pages-main/FAQs.js";
 const TickerTape = dynamic(
   () => import("react-ts-tradingview-widgets").then((w) => w.TickerTape),
   {
@@ -97,6 +98,7 @@ export default function Index({ list }) {
       <BlogList1 list={list} />
       <MorganBlogs />
       <CTAsection />
+      <FAQs />
       <Testimonials />
       {router.pathname === "/" && (
         <Script>

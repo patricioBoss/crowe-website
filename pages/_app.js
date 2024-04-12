@@ -68,7 +68,7 @@ export default function MyApp(props) {
           siteName: "Angela Danielle Crowe Portfolio website",
           profile: {
             firstName: "Angela Danielle Crowe",
-            lastName: "Graney",
+            lastName: "Crowe",
             gender: "female",
           },
           images: [
@@ -82,7 +82,7 @@ export default function MyApp(props) {
           {
             name: "keywords",
             content:
-              "Angela, Danielle, Crowe, Angela Danielle, Angela Danielle Crowe, Washington, DC, Wealth Management, Wealth Management, Financial goals, Retirement, Investing, Family planning, Business planning, Philanthropy, Financial wellness",
+              "Angela, Danielle, Crowe, Angela Danielle, Angela Danielle Crowe, North Rodney, Parham , Wealth Management, Wealth Management, Financial goals, Retirement, Investing, Family planning, Business planning, Philanthropy, Financial wellness",
           },
           // {
           //   name: "google-site-verification",
@@ -106,16 +106,16 @@ export default function MyApp(props) {
         telephone="+14242793916"
         address={{
           streetAddress:
-            "2200 North Rodney Parham Road Suite 100, Washington, Little Rock, AR 72212",
-          addressLocality: "15th Street Northwest Washington",
+            "2200 North Rodney Parham Road Suite 100, Little Rock, AR 72212",
+          addressLocality: "2200 North Rodney Parham ",
           addressRegion: " DC",
           postalCode: "34688",
           addressCountry: "US",
         }}
         geo={{
-          //39.1962786,-77.1762385
-          latitude: "39.1962786",
-          longitude: "-77.1762385",
+          //34.769321, -92.267174
+          latitude: "34.769321",
+          longitude: "-92.267174",
         }}
         images={["/img/666x1122.png"]}
         openingHours={[

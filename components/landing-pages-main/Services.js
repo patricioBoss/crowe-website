@@ -109,10 +109,10 @@ const MyStory = () => {
             {more && (
               <span>
                 <span className=" font-semibold">Angela Danielle Crowe</span> is
-                a financial advisor working in Washington, District Of Columbia
-                with 8 years of relevant experience. Angela Danielle Crowe
-                maintains Series 63 and Series 65 licenses, certifying them as
-                both a securities agent and an investment advisor
+                a financial advisor working in North Rodney Little Rock, state
+                of Arkansas with 8 years of relevant experience. Angela Danielle
+                Crowe maintains Series 63 and Series 65 licenses, certifying
+                them as both a securities agent and an investment advisor
                 representative, and is able to advise clients in District Of
                 Columbia, Maryland and Virginia.
               </span>
@@ -194,7 +194,7 @@ const MyLocation = (
         <p className=" text-base ">
           2200 North Rodney Parham Road
           <br />
-          Suite 100, Washington, Little Rock, AR 72212
+          Suite 100, Little Rock, AR 72212
           <br />
           Direct: +1(424)279-3916
         </p>
@@ -206,16 +206,24 @@ const MyLocation = (
             height: "400px",
             width: "100%",
           }}
+          center={[-92.4061892, 34.7730047]}
         >
-          <Marker coordinates={[-0.481747846041145, 51.3233379650232]}>
-            <div className=" bg-red-600 w-4 h-4 marker" />
+          <Marker coordinates={[-92.4061892, 34.7730047]}>
+            <div
+              style={{
+                width: "30px",
+                height: "30px",
+                background: "red",
+                borderRadius: "50%",
+              }}
+            />
           </Marker>
           <Layer
             type="symbol"
             id="marker"
             layout={{ "icon-image": "marker-15" }}
           >
-            <Feature coordinates={[-0.481747846041145, 51.3233379650232]} />
+            <Feature coordinates={[-92.4061892, 34.7730047]} />
           </Layer>
         </Map>
         {/* https://www.google.com/maps/place/Folger+Nolan+Fleming+Douglas/@38.899508,-77.0358319,17z/data=!3m2!4b1!5s0x89b7b79619aecd81:0x2a59f5593968e4ee!4m6!3m5!1s0x89b7b7bd8aa530c1:0xd8665b50ba2dba62!8m2!3d38.899508!4d-77.033257!16s%2Fg%2F1tfk9xnr?hl=en&entry=ttu */}
@@ -279,9 +287,12 @@ export const PortfolioCTA = () => {
           <h6 className=" my-[90px] font-inter text-[30px]">
             Portfolio Insights
           </h6>
-          <button className=" py-[16px] px-[52px] rounded-full text-[19px] border-2 border-[rgba(255,255,255,0.5)] font-bold hover:bg-white hover:text-[#0F8EC7]">
+          <a
+            href="#faqs"
+            className=" py-[16px] px-[52px] rounded-full text-[19px] border-2 border-[rgba(255,255,255,0.5)] font-bold hover:bg-white hover:text-[#0F8EC7]"
+          >
             Read More
-          </button>
+          </a>
         </div>
       </div>
     </div>
