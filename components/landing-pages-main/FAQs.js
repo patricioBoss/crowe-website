@@ -16,14 +16,14 @@ const faqs = [
   {
     question: "What is the process for signing up with Us?",
     answer: `
-      Want to signup? Sure, here's a simple step-by-step guide on how to sign up and get started:\n
-1. Open your preferred web browser and navigate to the website.\n
-2. Look for the "Sign Up" or "Register" button and click on it to start the registration process.\n
-3. Fill in your personal information, including your name, email address, and phone number.\n
-4. Choose a strong password and confirm it.\n
+      Want to signup? Sure, here's a simple step-by-step guide on how to sign up and get started:
+1. Open your preferred web browser and navigate to the website.
+2. Look for the "Sign Up" or "Register" button and click on it to start the registration process.
+3. Fill in your personal information, including your name, email address, and phone number.
+4. Choose a strong password and confirm it.
 5. Complete any additional verification steps required by the app, such as Id or phone number verification phone number verification.\n
 6. Provide your financial information, such as your various withdrawal wallet details, fund your account and start investing.\n
-7. Once your account is set up, you can start exploring the app's features, such as browsing available investments and plans, making investment etc.
+7. Once your account is set up, you can start exploring the app's features, such as browsing available investments and plans, making investment etc.
       `,
   },
   {
