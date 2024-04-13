@@ -39,6 +39,22 @@ const social = [
       </svg>
     ),
   },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=100082337082795&mibextid=ZbWKwL",
+    icon: (props) => (
+      <svg
+        stroke="currentColor"
+        fill="currentColor"
+        strokeWidth="0"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+      >
+        <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path>
+      </svg>
+    ),
+  },
   // {
   //   name: "Instagram",
   //   href: "https://instagram.com/instagram_name?igshid=OGQ5ZDc2ODk2ZA==",
@@ -76,11 +92,11 @@ const social = [
 const footerLinks = [
   {
     name: "Privacy & Cookies",
-    href: "https://docs.google.com/document/d/e/2PACX-1vScF-p5zHUyY36xP2-3FnQQnHlUdlkWuo_tMN43B_r8SOMONZrNVBWTZfGJrvIL5xvQtI45UtaBIlYC/pub",
+    href: "https://docs.google.com/document/d/e/2PACX-1vRAqCJhnytqXdGnoZp8b-Hi-AAdM_r_6_2nAP-6caf5XPK1QiihYOg_ZpX6LbMRs459VO4kUwpO2Ymk/pub",
   },
   {
     name: "Terms of Use",
-    href: "https://docs.google.com/document/d/e/2PACX-1vScF-p5zHUyY36xP2-3FnQQnHlUdlkWuo_tMN43B_r8SOMONZrNVBWTZfGJrvIL5xvQtI45UtaBIlYC/pub",
+    href: "https://docs.google.com/document/d/e/2PACX-1vRAqCJhnytqXdGnoZp8b-Hi-AAdM_r_6_2nAP-6caf5XPK1QiihYOg_ZpX6LbMRs459VO4kUwpO2Ymk/pub",
   },
   {
     name: "Contact Us",

@@ -16,7 +16,11 @@ const CTAsection = () => {
             Ready to start a conversation? Contact Angela Crowe today.
           </p>
           <div>
-            <a className=" mx-auto md:mx-0 py-[16px] px-[52px] rounded-full text-[19px] font-bold text-white bg-[#3182C1] m-auto cursor-pointer">
+            <a
+              href="https://wa.me/+14242793916"
+              target="_blank"
+              className=" mx-auto md:mx-0 py-[16px] px-[52px] rounded-full text-[19px] font-bold text-white bg-[#3182C1] m-auto cursor-pointer"
+            >
               Contact Me
             </a>
           </div>
