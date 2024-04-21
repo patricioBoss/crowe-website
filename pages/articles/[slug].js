@@ -100,7 +100,7 @@ export const getServerSideProps = async (ctx) => {
     return {
       props: {
         article,
-        url: `https://${config.domain}` + "articles/" + article.slug,
+        url: `https://${config.domain}/` + "articles/" + article.slug,
       },
     };
   } catch (err) {
