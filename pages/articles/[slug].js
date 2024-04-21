@@ -82,9 +82,10 @@ const social = [
 ];
 
 export const getServerSideProps = async (ctx) => {
-  const request = ctx.req;
-  const host = ctx.req.headers.host;
-  const url = ctx.req.url;
+  // const request = ctx.req;
+  // const host = ctx.req.headers.host;
+  // const url = ctx.req.url;
+  const article = await getNeededInfo(data[0]);
   try {
     const { data } = await axios({
       baseURL: "https://archive.businessday.ng",
@@ -97,8 +98,8 @@ export const getServerSideProps = async (ctx) => {
     console.log({ data });
     return {
       props: {
-        article: await getNeededInfo(data[0]),
-        url: `www.${config.domain}` + url,
+        article,
+        url: `https://${config.domain}` + "articles/" + article.slug,
       },
     };
   } catch (err) {
@@ -115,6 +116,7 @@ const BlogPage = ({ article, url }) => {
       <NextSeo
         title={article.title}
         description={article.excerpt}
+        canonical={url}
         openGraph={{
           title: article.title,
           description: article.excerpt,
