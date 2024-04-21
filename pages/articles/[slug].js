@@ -85,7 +85,7 @@ export const getServerSideProps = async (ctx) => {
   // const request = ctx.req;
   // const host = ctx.req.headers.host;
   // const url = ctx.req.url;
-  const article = await getNeededInfo(data[0]);
+
   try {
     const { data } = await axios({
       baseURL: "https://archive.businessday.ng",
@@ -95,6 +95,7 @@ export const getServerSideProps = async (ctx) => {
         slug: ctx.params?.slug,
       },
     });
+    const article = await getNeededInfo(data[0]);
     console.log({ data });
     return {
       props: {
