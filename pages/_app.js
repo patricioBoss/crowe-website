@@ -82,7 +82,7 @@ export default function MyApp(props) {
           {
             name: "keywords",
             content:
-              "Angela, Danielle, Crowe, Angela Danielle, Angela Danielle Crowe, North Rodney, Parham , Wealth Management, Wealth Management, Financial goals, Retirement, Investing, Family planning, Business planning, Philanthropy, Financial wellness",
+              "Angela, Danielle, Crowe, Angela Danielle, Angela Danielle Crowe, angela danielle crowe, angeladaniellecrowe, North Rodney, Parham , Wealth Management, Wealth Management, Financial goals, Retirement, Investing, Family planning, Business planning, Philanthropy, Financial wellness",
           },
           // {
           //   name: "google-site-verification",
