@@ -59,8 +59,8 @@ export default function MyApp(props) {
   return (
     <>
       <DefaultSeo
-        title="Angela Danielle Crowe | Wealth Management"
-        description="Angela Danielle Crowe can help you achieve your financial goals. Learn about Retirement, Investing, Family, Business Planning, Philanthropy, and Financial Wellness."
+        title="Angela Danielle Crowe | Financial Advisor | Family Wealth Advisor"
+        description="Angela Danielle Crowe: Expert guidance for secure financial futures. Specializing in Retirement, Investing, Family Wealth, Business Planning, Philanthropy, and Financial Wellness."
         openGraph={{
           type: "website",
           locale: "en-GB",
@@ -74,7 +74,7 @@ export default function MyApp(props) {
           images: [
             {
               url: "/img/666x1122.jpg",
-              alt: "Og Image Alt",
+              alt: "https://advisor.angeladaniellecrowe.com - site",
             },
           ],
         }}
@@ -82,7 +82,7 @@ export default function MyApp(props) {
           {
             name: "keywords",
             content:
-              "Angela, Danielle, Crowe, Angela Danielle, Angela Danielle Crowe, angela danielle crowe, angeladaniellecrowe, North Rodney, Parham , Wealth Management, Wealth Management, Financial goals, Retirement, Investing, Family planning, Business planning, Philanthropy, Financial wellness",
+              "angela danielle crowe, Angela, Danielle, Crowe, Angela Danielle, Angela Danielle Crowe, angeladaniellecrowe, North Rodney, Parham , Wealth Management, Wealth Management, Financial goals, Retirement, Investing, Family planning, Business planning, Philanthropy, Financial wellness",
           },
           // {
           //   name: "google-site-verification",
@@ -98,9 +98,9 @@ export default function MyApp(props) {
       />
 
       <LocalBusinessJsonLd
-        type="Wealth Management"
+        type="Family Wealth Advisor"
         id="https://advisor.angeladaniellecrowe.com"
-        name="Angela Danielle Crowe - Wealth Management"
+        name="Angela Danielle Crowe - Financial Advisor - Family Wealth Advisor"
         description="Angela Danielle Crowe can help you achieve your financial goals. Learn about Retirement, Investing, Family, Business Planning, Philanthropy, and Financial Wellness."
         url=""
         telephone="+14242793916"

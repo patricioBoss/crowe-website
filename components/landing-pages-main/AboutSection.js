@@ -9,13 +9,14 @@ const AboutSection = () => {
         src={"/img/666x1122.jpg"}
         width={390}
         height={663.09}
+        alt="Angela Danielle Crowe"
         priority
       />
       <div className=" bg-white flex-1 p-3 md:p-[30px] flex mt-7 md:mt-0 flex-col">
         <h4 className=" font-black text-lg">MY MISSION STATEMENT</h4>
         <div className=" flex-1 flex justify-center items-center">
           <p className=" my-20  md:m-auto font-inter text-[21px] text-center">
-            Helping you with wealth planning strategies for your life and legacy
+            Expertise, knowledge, and personalized support to help you achieve your aspirations and reach your full potential.
           </p>
         </div>
       </div>
